@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eval</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+
+<body>
+
+    <header>
+        <p id="alert"></p>
+        <p id="alertbis"></p>
+        <h1>Formulaire </h1>
+
+        
+
+    </header>
+    <main>
+        <center>
+            <button id="btnaffiche" onclick="affichesaisie();" class="valider">Ajouter</button>
+            <button onclick="trieParTitre();" class="valider">Trie par titre</button>
+            <button onclick="trieParAnnee();" class="valider">Trie par annee de sortie</button>
+
+        </center>
+        <table id="table" border="1" class="centrerObjet">
+            <tr id="zonesaisie">
+
+                <td>
+                    <form id="TITRE"><input type="text" id="titre" placeholder="Entrer titre"></form>
+                </td>
+                <td>
+                    <form id="ANNEE"><input type="number" id="annee" placeholder="Entrer annee"></form>
+                </td>
+                <td>
+                    <form id="REALISATEUR"><input type="text" id="realisateur" placeholder="Entrer realisateur"></form>
+                </td>
+                <td></td>
+                <td><button onclick="addRow();" id="btnValider" class="valider">Ajouter</button></td>
+               
+            </tr>
+            <tr>
+                <th>Titre</th>
+                <th>Année</th>
+                <th>Réalisateur</th>
+                <th>Edition</th>
+                <th>Suppression</th>
+            </tr>
+
+
+        </table>
+    </main>
+    <script src="code.js">
+
+
+    </script>
+</body>
+
+</html>

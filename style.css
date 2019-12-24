@@ -1,0 +1,95 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.centrerObjet {
+    max-width: 700px;
+    min-width: 400px;
+
+}
+
+caption {
+    caption-side: bottom;
+    font-weight: bold;
+    font-style: italic;
+    margin: 4px;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    height: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+th {
+    background: rgb(112, 179, 245);
+}
+
+.rowtitle {
+    background: rgb(90, 133, 175);
+    font-weight: bold;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #F0F0F0;
+ 
+}
+
+
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+
+    color: rgb(255, 255, 255);
+    -webkit-border-radius: 12px / 24px;
+    -moz-border-radius: 12px / 24px;
+    border-radius: 12px / 24px;
+}
+
+.valider {
+    background-color: rgb(60, 207, 97);
+
+}
+
+.Supprimer {
+    background-color: rgb(207, 60, 60);
+
+}
+
+.Editer {
+    background-color: rgb(47, 190, 226);
+
+}
+
+#zonesaisie {
+    visibility: hidden;
+}
+
+#alert {
+    text-align: center;
+    background-color: rgb(177, 215, 247);
+}
+
+
+
+
